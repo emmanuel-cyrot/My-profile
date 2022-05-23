@@ -1,0 +1,67 @@
+body{
+	background-color: rgb(230, 230, 230);
+	color: rgb(30, 30, 30);
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 16px;
+}
+h1,h2,h3{
+	font-family: Courier;
+	line-height: 3.2px;
+}
+h1{
+	color: red;
+	font-family: Courier;
+	font-weight: 300;
+	letter-spacing: 1px;
+	font-size: 32px;
+}
+
+h2{
+	color: rgb(100, 150, 100);
+	;
+	font-size: 30px;
+	letter-spacing:4px;
+}
+h3{ 
+    color: rgba(100, 130, 100, 0.8);
+     font-size: 20px;
+     letter-spacing: 4px;
+ }
+ a{
+ 	text-decoration: none;
+ 	color:red;
+ }
+ a:.hover{
+ 	color: blue;
+ }
+.img-circle{
+	 border-radius: 50%
+}
+div{
+	background:white;
+border: 2px solid black;
+margin: 15px; 
+border-top: 4px;
+border-right: 2px;
+border-left:1px;
+border-bottom:2px;
+border-radius: 5px;
+box-shadow: 2px 2px 3px grey;}
+
+
+
+/*custom design with class*/
+
+.container{
+	width: 900px;
+	margin: 40px auto;
+}
+
+.cardwhite {
+	background color: white;
+	padding: 40px;
+     box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+     border-radius: 4px;
+     margin: 20px 0px;
+     text-align: center }
